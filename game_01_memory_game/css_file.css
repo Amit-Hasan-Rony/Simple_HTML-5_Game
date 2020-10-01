@@ -1,0 +1,49 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.full_container{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sub_container{
+    display: block;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    margin-top: 150px;
+}
+
+.game_div{
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background: red;
+    box-shadow: 10px 10px 10px 10px green;
+}
+
+.game_score_div{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#score_id{
+    color: red;
+}

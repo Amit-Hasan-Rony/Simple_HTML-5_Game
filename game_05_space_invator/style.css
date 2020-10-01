@@ -1,0 +1,53 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.full_container{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sub_full_conatainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.game_container{
+    flex: 3;
+    background: chartreuse;
+}
+
+.play_game{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background: red;
+}
+
+.score_and_other{
+    flex: 1;
+    background: salmon;
+}
+
+.sub_score_and_other{
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
